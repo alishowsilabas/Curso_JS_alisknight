@@ -9,7 +9,7 @@ test1(6)
 test1(8)
 
 function test2(num){
-    if(num > 7); {     // ';' neste caso é um sentença de cod vazio, não usar em estrutura de controle
+    if(num > 7); {     // ';' neste caso é uma sentença de cod vazio, não usar em estrutura de controle
         console.log(num)
     }
 }
