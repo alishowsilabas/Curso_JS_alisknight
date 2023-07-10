@@ -1,4 +1,4 @@
-function calcularReajuste(plano, salarioAtual) {
+function calcularReajuste(salarioAtual, plano) {
     switch (plano) {
         case 'A':
             return salarioAtual * 1.1
