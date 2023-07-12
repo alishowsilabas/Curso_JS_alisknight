@@ -10,8 +10,9 @@ function calcularPreco (idade) {
     }
 }
 
-console.log(calcularPreco(8));
-console.log(calcularPreco(15));
-console.log(calcularPreco(35));
-console.log(calcularPreco(52));
-console.log(calcularPreco(80));
+console.log(calcularPreco(9));
+console.log(calcularPreco(10));
+console.log(calcularPreco(30));
+console.log(calcularPreco(31));
+console.log(calcularPreco(60));
+console.log(calcularPreco(61));
