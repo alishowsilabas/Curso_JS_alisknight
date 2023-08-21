@@ -14,5 +14,5 @@ console.log(volvo.__proto__ === Object.prototype)
 console.log(Object.prototype.__proto__ === null)
 
 function meuObj() {}
-console.log(typeof Object, typeof meuObj)
+console.log(typeof Object, typeof meuObj) // tanto o comendo 'Object' quando uma função de clarada são funções
 console.log(Object.prototype, meuObj.prototype)

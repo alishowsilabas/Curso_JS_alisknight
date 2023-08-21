@@ -1,5 +1,6 @@
 // Cadeia de protótipos (prototype chain)
-Object.prototype.attr0 = 'Z'
+Object.prototype.attr0 = 'Z' // evitar este tipo de validação
+
 const avo = {attr1: 'A'}
 const pai = {__proto__: avo, attr2: 'B', attr3: 'X'} // o 'attr3:X' foi sombreado
 const filho = {__proto__:pai, attr3:'C'}

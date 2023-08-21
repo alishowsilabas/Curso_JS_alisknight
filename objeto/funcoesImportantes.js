@@ -32,5 +32,5 @@ const obj = Object.assign(dest, o1, o2) // depois do 1º objeto ele concatena e 
 console.log(obj)
 
 Object.freeze(obj)
-obj.c = 123
+obj.c = 123 // não é adcionado pois o objetct está 'freezado'
 console.log(obj)

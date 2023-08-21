@@ -22,8 +22,9 @@ aprovados.sort()
 console.log(aprovados)
 
 delete aprovados[1]
-console.log(aprovados)
+console.log(aprovados[1])
+console.log(aprovados[2])
 
 aprovados = ['Bia', 'Carlos', 'Ana']
-aprovados.splice(1, 1, 'Elemento1', 'Elemento2')
+aprovados.splice(1, 1, 'Elemento1', 'Elemento2') // splice adciona, remove e adciona e remove ao mesmo tempo
 console.log(aprovados)

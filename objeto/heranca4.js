@@ -17,7 +17,7 @@ obj2.nome = 'Rafael'
 obj2.falar()
 
 obj3 = {}
-obj3.__proto__ = MeuObjeto.prototype // mudando a referência do 'Object.prototype' para 'MeuObjeto.prototype'
+obj3.__proto__ = MeuObjeto.prototype // mudando a referência do 'obj3.prototype' para 'MeuObjeto.prototype'
 obj3.falar()
 
 // RESUMO

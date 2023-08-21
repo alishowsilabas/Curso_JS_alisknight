@@ -15,7 +15,7 @@ Array.prototype.first = function() {
 console.log([1, 2, 3, 4, 5])
 console.log('a', 'b', 'c')
 
-// String.prototype já tem uma função to.String
+// String.prototype já tem uma função .toString
 // evitar sobrescrever funções/comportamentos
 String.prototype.toString = function() {
     return 'Lascou tudo'
