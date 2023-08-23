@@ -1,8 +1,8 @@
 function numerosNegativos (vetor) {
     let qtdNegativos = 0
     for(let i = 0; i < vetor.length; i++) {
-        if(vetor[i] < 0) {
-            qtdNegativos++
+        if(vetor[i] > 0) {
+            numerosNegativos++
         }
     }
     return qtdNegativos
