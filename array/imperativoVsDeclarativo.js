@@ -1,6 +1,6 @@
 const alunos = [
-    { nome: 'João', nota: 7.9 },
-    { nome: 'Maria', nota: 9.9 },
+    { nome: 'João', nota: 10 },
+    { nome: 'Maria', nota: 8 },
 ]
 
 // Imperativo
